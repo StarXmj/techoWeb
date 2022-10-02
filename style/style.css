@@ -59,3 +59,31 @@ body {
 .social-links li {
     background-color: #735CDD;
 }
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    /* on le colle en bas */
+    width: 100%;
+    height: 70px;
+    /* Hauteur du pied de page */
+    text-align: center;
+}
+
+footer div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+    height: 40px;
+    width: 40px;
+    background-image: url("/img/25231.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+
+footer div:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-image: url("/img/252312.png");
+}
